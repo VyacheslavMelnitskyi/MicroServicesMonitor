@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicesMonitorWPF", "MicroServicesMonitorWPF.csproj", "{5492D61A-2F38-452C-9424-2EE23494A5D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicesMonitorCore", "..\MicroServicesMonitorCore\MicroServicesMonitorCore.csproj", "{3FC37700-C088-418A-949E-A12D6430B9B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5492D61A-2F38-452C-9424-2EE23494A5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5492D61A-2F38-452C-9424-2EE23494A5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5492D61A-2F38-452C-9424-2EE23494A5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5492D61A-2F38-452C-9424-2EE23494A5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC37700-C088-418A-949E-A12D6430B9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC37700-C088-418A-949E-A12D6430B9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC37700-C088-418A-949E-A12D6430B9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC37700-C088-418A-949E-A12D6430B9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7A50E3D-453A-401A-A09F-6CF0E33E5E03}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<Window x:Class="MicroServicesMonitorWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MicroServicesMonitorWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="140" Width="250" Loaded="Window_Loaded" Closed="Window_Closed" >
+    <Grid Name="MainGrid">
+        <CheckBox Content="TopMost" Name="TopMostCheckBox" Checked="TopMostCheckBox_CheckedChanged" Unchecked="TopMostCheckBox_CheckedChanged" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Transparent" Name="TransparentCheckBox" Checked="TransparentCheckBox_CheckedChanged" Unchecked="TransparentCheckBox_CheckedChanged" HorizontalAlignment="Left" Margin="120,10,0,0" VerticalAlignment="Top" IsEnabled="False" />
+        <Button Name="CheckServicesButton" Content="Check" Click="CheckServicesButton_Click" HorizontalAlignment="Left" Height="30" Margin="10,40,0,0" VerticalAlignment="Top" Width="100"/>
+        <CheckBox Name="TimerCheckBox" Content="TimerCheck" Checked="TimerCheckBox_CheckedChanged" Unchecked="TimerCheckBox_CheckedChanged" IsChecked="True" HorizontalAlignment="Left" Margin="120,50,0,0" VerticalAlignment="Top"/>
+        <Button Name="StartAllButton" Content="Start All" Click="StartAllButton_Click" HorizontalAlignment="Left" Height="30" Margin="10,80,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Name ="StopAllButton"  Content="Stop All" Click="StopAllButton_Click" HorizontalAlignment="Left" Margin="120,80,0,0" VerticalAlignment="Top" Height="30" Width="100"/>
+
+    </Grid>
+</Window>
