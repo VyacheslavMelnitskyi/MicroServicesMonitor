@@ -1,7 +1,7 @@
 # MicroServicesMonitor
 
 examples:
-
+```json
 config.json
 {
     "Transparent": "false",
@@ -54,3 +54,4 @@ config.json
 
     ]
 }
+```
